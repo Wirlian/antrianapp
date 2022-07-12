@@ -1,0 +1,63 @@
+CRITICAL - 2022-07-04 04:20:09 --> Undefined variable: model
+in APPPATH\Controllers\Pelayanan.php on line 12.
+ 1 APPPATH\Controllers\Pelayanan.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pelayanan.php', 12, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelayanan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 04:47:08 --> kode =>required is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 314.
+ 1 SYSTEMPATH\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('kode =>required')
+ 2 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('0', '0', null, [...], [...])
+ 3 APPPATH\Controllers\Pelayanan.php(25): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelayanan->add()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 07:46:55 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Pelayanan.php(34): redirect('/pelayanan')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelayanan->add()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 07:50:32 --> Undefined variable: artikel
+in APPPATH\Views\pelayanan.php on line 22.
+ 1 APPPATH\Views\pelayanan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: artikel', 'APPPATH\\Views\\pelayanan.php', 22, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelayanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelayanan', [], true)
+ 5 APPPATH\Controllers\Pelayanan.php(14): view('pelayanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelayanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 08:10:37 --> Undefined variable: artikel
+in APPPATH\Controllers\Pelayanan.php on line 59.
+ 1 APPPATH\Controllers\Pelayanan.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: artikel', 'APPPATH\\Controllers\\Pelayanan.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelayanan->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 08:11:02 --> Undefined variable: pelayanan
+in APPPATH\Controllers\Pelayanan.php on line 59.
+ 1 APPPATH\Controllers\Pelayanan.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pelayanan', 'APPPATH\\Controllers\\Pelayanan.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelayanan->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-04 08:20:35 --> Invalid file: ../template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../template/header.php')
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('../template/header', null, true)
+ 3 APPPATH\Views\pelayanan\tambahpelayanan.php(1): CodeIgniter\View\View->include('../template/header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pelayanan\\tambahpelayanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pelayanan/tambahpelayanan', [], true)
+ 7 APPPATH\Controllers\Pelayanan.php(37): view('pelayanan/tambahpelayanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelayanan->add()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

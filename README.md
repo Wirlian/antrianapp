@@ -1,5 +1,7 @@
 # Aplikasi Loket Antrian
 
+Link Demo : https://wirlianapp.000webhostapp.com/
+
 - ## Menu Pelayanan
 ![pelayanan](https://user-images.githubusercontent.com/73067481/178644728-13d105e7-d84c-4480-b210-fc5cc1b505d5.JPG)
 ini adalah menu utama untuk mengelola pelayanan pada menu ini user dapat melihat informasi daftar pelayanan dan dapat melakukan tambah , edit dan hapus pelayanan.

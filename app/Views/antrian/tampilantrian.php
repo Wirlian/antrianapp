@@ -51,15 +51,15 @@
 					 	<h6 style="width: 100%; text-align: center; color: #fff;">Panggilan Antrian</h6>
 					 </div>
 						<div style="width: 100%; padding: 10%;">
-							<h1 style="width:100%; text-align: center;" id="utamano">--</h1>
+							<h1 style="width:100%; text-align: center;" id="">A1</h1>
 						</div>
 						 <div style="width: 100%; background-color: orange; padding:5%; " >
-					 	<h4 style="width: 100%; text-align: center; color: #fff;" id="utamaloket">--</h4>
+					 	<h4 style="width: 100%; text-align: center; color: #fff;" id="">Loket 1</h4>
 					 </div>
 					</div>
-					<div class="col-md-7 offset-md-1" style="background-color: orange; height:250px; padding: 0;">
+					<div class="col-md-7 offset-md-1" style="background-color: orange; height:250px; padding: 0;"> 
 						<iframe style="width: 100%; height: 100%;" 
-src="">
+src="https://www.youtube.com/watch?v=A_MjCqQoLLA">
 </iframe>
 						
 					</div>

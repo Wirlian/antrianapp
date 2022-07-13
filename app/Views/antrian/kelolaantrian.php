@@ -70,12 +70,7 @@
 <body onload="detail_layanan();">
 <div class="row luar">
 	<div class="col-md-12 header">
-		<select class="form-control" id="selectloket" style="width: 100px;float: left; margin-top: 1%;">
-				<?php  if (! empty($loket)) {
-                    foreach($loket as $key => $data) { ?>
-                    	<option value="<?= $data['id'];?>"><?= $data['nama'] ?></option>
-                    <?php }} ?>
-		</select>
+		
 		<h2 id="layananloket" style="margin-top: 2%; width: 100%; color: #fff; text-align: center;">Pelayanan Loket</h2>
 	</div>
 	<div class="col-md-12">
@@ -85,8 +80,8 @@
 					<div class="col-md-12">
 						<div class="box-panggil">
 					<div  style="width: 100%; background-color: orange; color:#fff;  height: 50px; padding-top: 1%;
-					"><h4 style="text-align: center;" id="status">--</h4></div>
-					<h1 style="text-align: center; margin-top:10%; " id="no_antrian">--</h1>
+					"><h4 style="text-align: center;" id="">Loket 1</h4></div>
+					<h1 style="text-align: center; margin-top:10%; " id="">A1</h1>
 				</div>
 					</div>
 					<div class="col-md-12">
@@ -121,6 +116,10 @@
                </tr>
                   </thead> 
                   <tbody>
+					<td>A1</td>
+					<td><button class="btn btn-primary" onclick="">Panggil lagi</button>';
+				</td>
+					<td></td>
                     
                   </tbody>
                    
